@@ -5,27 +5,17 @@
   "description": "nicky-choi",
   "author": "Nicky Choi",
   "keywords": [
-    "gatsby"
+    "nextjs"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
     "autoprefixer": "^10.4.16",
-    "gatsby": "^5.13.0",
-    "gatsby-plugin-image": "^3.13.0",
-    "gatsby-plugin-manifest": "^5.13.0",
-    "gatsby-plugin-mdx": "^5.13.0",
-    "gatsby-plugin-postcss": "^6.13.0",
-    "gatsby-plugin-sharp": "^5.13.0",
-    "gatsby-plugin-sitemap": "^6.13.0",
-    "gatsby-source-filesystem": "^5.13.0",
-    "gatsby-transformer-sharp": "^5.13.0",
+    "next": "^14.0.4",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
