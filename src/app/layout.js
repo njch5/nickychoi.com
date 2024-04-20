@@ -25,10 +25,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-orange-100" style={pageStyles}>
-        <main>
-          <Header />
-          {children}
-        </main>
+        <Header />
+        {children}
       </body>
     </html>
   );

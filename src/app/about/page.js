@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "About Me",
 };
@@ -10,12 +12,15 @@ const pageStyles = {
 
 const AboutPage = () => {
   return (
-    <main>
-      <h1 className="text-center" style={pageStyles}>
-        About Me
-      </h1>
-      <p className="text-center">Born and raised in the Pacific Northwest.</p>
-    </main>
+    <div className="flex flex-col-reverse items-center mt-12 lg:flex-row lg:justify-around lg:space-x-6">
+      <Image
+        src={"/nicky.jpg"}
+        alt={"Image of Nicky"}
+        width="350"
+        height="200"
+      />
+      <h1>Born in the PNW</h1>
+    </div>
   );
 };
 

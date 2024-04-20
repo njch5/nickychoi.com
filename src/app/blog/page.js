@@ -4,9 +4,9 @@ export const metadata = {
 
 function BlogPage() {
   return (
-    <main>
+    <div>
       <h1>In Progress...</h1>
-    </main>
+    </div>
   );
 }
 
